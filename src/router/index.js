@@ -18,9 +18,9 @@ const Router = () => {
         component={Home}
         options={{headerShown: false}}
       />
-      <Stack.Screen name="TambahNote" component={TambahNote} options={{ title: 'Tambah Note' }} />
-      <Stack.Screen name="DetailNote" component={DetailNote} options={{ title: 'Detail Note' }} />
-      <Stack.Screen name="EditNote" component={EditNote} options={{ title: 'Edit Note' }} />
+      <Stack.Screen name="TambahNote" component={TambahNote} options={{ title: 'Tambah Note', headerTitleAlign: 'center', headerTintColor: 'grey' }} />
+      <Stack.Screen name="DetailNote" component={DetailNote} options={{ title: 'Detail Note', headerTitleAlign: 'center', headerTintColor: 'grey' }} />
+      <Stack.Screen name="EditNote" component={EditNote} options={{ title: 'Edit Note', headerTitleAlign: 'center', headerTintColor: 'grey' }} />
     </Stack.Navigator>
   );
 };
